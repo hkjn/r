@@ -9,7 +9,7 @@ DOCKER_IMAGE="rstat"
 ARCH="$(uname -m)"
 
 declare -A BASEIMAGES
-BASEIMAGES[x86_64]=debian:jesse-slim
+BASEIMAGES[x86_64]=debian:jessie-slim
 BASEIMAGES[armv7l]=hkjn/debian:armv7l
 
 BASEIMAGE=${BASEIMAGES[$ARCH]}
