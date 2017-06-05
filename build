@@ -5,7 +5,7 @@
 set -euo pipefail
 
 DOCKER_USER="hkjn"
-DOCKER_IMAGE="r"
+DOCKER_IMAGE="rstat"
 ARCH="$(uname -m)"
 
 declare -A BASEIMAGES
